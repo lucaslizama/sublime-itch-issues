@@ -1,0 +1,16 @@
+name: Feature request
+description: An idea for Sublime Itch.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would help, and in which situation it comes up.
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: A sketch, a screenshot of something similar, or how it's done today.
